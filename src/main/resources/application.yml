@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: course
+  jpa:
+    open-in-view: false
+  profiles:
+    active: dev  # Aponta para o arquivo `application-dev.yml` ou `application-test.yml`

@@ -1,0 +1,33 @@
+<configuration>
+    <!-- Appender para saída no console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logger do Hibernate: SQL -->
+<!--    <logger name="org.hibernate.SQL" level="DEBUG">-->
+<!--        <appender-ref ref="STDOUT" />-->
+<!--    </logger>-->
+
+    <!-- Logger do Hibernate: tipos de parâmetros (bind parameters) -->
+<!--    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE">-->
+<!--        <appender-ref ref="STDOUT" />-->
+<!--    </logger>-->
+
+    <!-- Logger do Spring ORM para transações -->
+    <logger name="org.springframework.orm.jpa" level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <!-- Logger do Spring Data JPA -->
+<!--    <logger name="org.springframework.data.jpa" level="DEBUG">-->
+<!--        <appender-ref ref="STDOUT" />-->
+<!--    </logger>-->
+
+    <!-- Configuração do logger raiz -->
+<!--    <root level="INFO">-->
+<!--        <appender-ref ref="STDOUT" />-->
+<!--    </root>-->
+</configuration>

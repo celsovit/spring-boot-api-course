@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: ${DATABASE_USERNAME}
+    username: ${DATABASE_PASSWORD}
+    password: ${DATABASE_URL}
+#    url: jdbc:postgresql://localhost:5432/springboot_course
+#    username: postgres
+#    password: 1234
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  sql:
+    init:
+      mode: always
