@@ -4,7 +4,7 @@ spring:
     url: ${DATABASE_USERNAME}
     username: ${DATABASE_PASSWORD}
     password: ${DATABASE_URL}
-#    url: jdbc:postgresql://localhost:5432/springboot_course
+#    url: jdbc:postgresql://172.17.0.1:5432/springboot_course
 #    username: postgres
 #    password: 1234
   jpa:
