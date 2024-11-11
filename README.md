@@ -110,3 +110,4 @@ docker exec -it my-app bash
 - [Build a Docker Image using Maven and Spring boot](https://medium.com/@ramanamuttana/build-a-docker-image-using-maven-and-spring-boot-418e24c00776)
 - [Free Hosting Bliss: Deploying Your Spring Boot App on Render](https://medium.com/spring-boot/free-hosting-bliss-deploying-your-spring-boot-app-on-render-d0ebd9713b9d)
 - [Youtube: Deploy Spring Boot no Render](https://youtu.be/fwWvgk_SW2g)
+- [Youtube: PostgreSQL on Render + DBeaver](https://youtu.be/icpPqD0tjLg)
